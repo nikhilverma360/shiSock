@@ -1,10 +1,12 @@
-
+---
 A python  package for creating multi-client server with high level of abstarction, meaning user don't need to write 100s of lines of code. User can write a multi-client server with just 12 lines fo code, it's that simple.
 In addition to this PySock also make the connections end-to-end encrypted. It also provide the functionality of creating a end-to-end encrypted connection between two or more client, meaning client can share the data with others client available.
 
 
 In more simple terms PySock brings to versions of multi-client server. First one is just normal multi-client server with no encryption, user need to write there own wrapper kind fucntion to make it secure if they wants. Other version is highly secure. PySock implements E2E with the help of AES.
 The encryption is not just limited to client-server communication but it also encrypts cleint-client communication.
+
+
 
 ## Below there are two examples listed, first is secure other is unsecure:
 
